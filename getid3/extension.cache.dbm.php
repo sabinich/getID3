@@ -73,12 +73,12 @@
 class getID3_cached_dbm extends getID3
 {
     /**
-     * @var resource
+     * @var resource|null
      */
     private $dba;
 
     /**
-     * @var resource|bool
+     * @var resource|null
      */
     private $lock;
 
